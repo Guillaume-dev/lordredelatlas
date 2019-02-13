@@ -1,14 +1,12 @@
 @extends('layouts.header')
 
-@section('content')
-<div class="content-welcome text-center">
-    <div>
+<div ng-app="app" ng-controller="ctrl" ng-class="animation" class="content-welcome text-center animsitionFlip">
+    <div class="links">
         <h1>Bienvenue dans l'Ordre de l'Atlas</h1>
-        <h3>C'est maintenant que la légende commence</h3>
+        <h3 class="animated fadeIn slower">C'est maintenant que la légende commence</h3>
+        <a class="animated fadeIn delay-2s animsition-link" href="{{ 'home' }}">Entrer</a>
     </div>
 </div>
-       
         
-
-
  @extends('layouts.scripts')
+

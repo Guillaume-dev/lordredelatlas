@@ -19,8 +19,13 @@
         <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
         <!-- Modification Css -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-        <link href="{{ asset('scss/myscss.scss') }}" rel="stylesheet">
+        <link href="{{ asset('css/animate.css') }}" rel="stylesheet">
         <link href="{{ asset('css/mycss.css') }}" rel="stylesheet">
+        <!-- transition de page -->
+        <!-- animsition.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.1/css/animsition.min.css">
+        <!-- jQuery -->
+        
     </head>
     <body> 
         
